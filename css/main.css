@@ -15,11 +15,12 @@ html {
     font-size: 1em;
     line-height: 1.4;
     padding: 15px !important;
-    background-color: #ffca84;
+    background-color: #dadada;
+    box-sizing: border-box;
 }
 
 body {
-    box-shadow: 2px -2px 4px;
+    box-shadow: 2px 1px 10px;
 }
 /*
  * Remove text-shadow in selection highlight:
@@ -319,6 +320,12 @@ textarea {
 /*fullpage js*/
 .fp-section {
     padding: 15px !important;
+}
+
+#fullpage .section:first-child {
+    background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
 }
 
 /*end fullpage js*/
