@@ -1,15 +1,13 @@
-
 jQuery(document).ready(function() {
     jQuery('#fullpage').fullpage({
+    	paddingTop: '15px',
+        paddingBottom: '15px',
         //Navigation
-        menu: '#menu',
-        lockAnchors: false,
-        anchors:['firstPage', 'secondPage'],
-        navigation: false,
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+        sectionsColor: ['#7F6542','#FFCA84','#FFEBD1', '#7F6645'],
+        navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['firstSlide', 'secondSlide'],
-        showActiveTooltip: false,
-        slidesNavigation: true,
-        slidesNavPosition: 'bottom'
+        navigationTooltips: ['First page', 'Second page', 'Third page', 'last page']
+        
     });
 });
